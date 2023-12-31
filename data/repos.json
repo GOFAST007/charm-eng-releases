@@ -10730,25 +10730,25 @@
             "releases": null,
             "commits": [
                {
-                  "sha": "8713be8167ea81b6cff96f4bd91e2a921ea28ec4",
+                  "sha": "d496be0258e6a711b97a1d854db222c3109fe057",
                   "author": "renovate[bot]",
-                  "timestamp": 1703801242,
-                  "message": "<p>chore(deps): update dependency prettier-plugin-tailwindcss to v0.5.10 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/270\">#270</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
-                  "url": "https://github.com/canonical/sdcore-nms/commit/8713be8167ea81b6cff96f4bd91e2a921ea28ec4"
+                  "timestamp": 1703923303,
+                  "message": "<p>fix(deps): update dependency <a target=\"_blank\" href=\"https://github.com/types\">@types</a>/node to v20.10.6 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/274\">#274</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
+                  "url": "https://github.com/canonical/sdcore-nms/commit/d496be0258e6a711b97a1d854db222c3109fe057"
                },
                {
-                  "sha": "ae946d01411897691675c0ba26d02c0314c6a6bc",
+                  "sha": "dde0985677d9865cb3c6e1b9c7ebaceb641b4aa5",
                   "author": "renovate[bot]",
-                  "timestamp": 1703786786,
-                  "message": "<p>fix(deps): update dependency <a target=\"_blank\" href=\"https://github.com/types\">@types</a>/react to v18.2.46 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/269\">#269</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
-                  "url": "https://github.com/canonical/sdcore-nms/commit/ae946d01411897691675c0ba26d02c0314c6a6bc"
+                  "timestamp": 1703908282,
+                  "message": "<p>fix(deps): update dependency <a target=\"_blank\" href=\"https://github.com/tanstack\">@tanstack</a>/react-query to v5.15.5 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/273\">#273</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
+                  "url": "https://github.com/canonical/sdcore-nms/commit/dde0985677d9865cb3c6e1b9c7ebaceb641b4aa5"
                },
                {
-                  "sha": "a4e400fec3b77e36c715d8c1464fe75edf73ca4c",
+                  "sha": "f25e7d581b61d50d596306a5b8edf8edada6872f",
                   "author": "renovate[bot]",
-                  "timestamp": 1703603446,
-                  "message": "<p>fix(deps): update dependency <a target=\"_blank\" href=\"https://github.com/tanstack\">@tanstack</a>/react-query to v5.15.0 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/268\">#268</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
-                  "url": "https://github.com/canonical/sdcore-nms/commit/a4e400fec3b77e36c715d8c1464fe75edf73ca4c"
+                  "timestamp": 1703869595,
+                  "message": "<p>fix(deps): update dependency <a target=\"_blank\" href=\"https://github.com/tanstack\">@tanstack</a>/react-query to v5.15.3 (<a target=\"_blank\" href=\"https://github.com/canonical/sdcore-nms/pull/272\">#272</a>)</p>\n\n<p>Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com></p>\n",
+                  "url": "https://github.com/canonical/sdcore-nms/commit/f25e7d581b61d50d596306a5b8edf8edada6872f"
                }
             ],
             "ciActions": [],
@@ -11203,6 +11203,13 @@
             "releases": null,
             "commits": [
                {
+                  "sha": "931ec173ed963f16ef47ab8b00175602cd1a1495",
+                  "author": "renovate[bot]",
+                  "timestamp": 1703891970,
+                  "message": "<p>fix(deps): update dependency aws-sdk to v2.1528.0</p>\n",
+                  "url": "https://github.com/canonical/sdcore-tests/commit/931ec173ed963f16ef47ab8b00175602cd1a1495"
+               },
+               {
                   "sha": "0f3c7c4e3fc5e331c25cf853a1ae57d0a8bae324",
                   "author": "renovate[bot]",
                   "timestamp": 1703797610,
@@ -11215,13 +11222,6 @@
                   "timestamp": 1703707857,
                   "message": "<p>fix(deps): update dependency aws-sdk to v2.1526.0</p>\n",
                   "url": "https://github.com/canonical/sdcore-tests/commit/065c4045ad1f9439c25b61cea2e9f37bb57ffcab"
-               },
-               {
-                  "sha": "ef14d530d704cf29fdc7eb83d52d7d2c8910e70e",
-                  "author": "renovate[bot]",
-                  "timestamp": 1703284064,
-                  "message": "<p>fix(deps): update dependency aws-sdk to v2.1525.0</p>\n",
-                  "url": "https://github.com/canonical/sdcore-tests/commit/ef14d530d704cf29fdc7eb83d52d7d2c8910e70e"
                }
             ],
             "ciActions": [],
@@ -13152,76 +13152,41 @@
             "snap": null
          },
          {
-            "name": "kafka-operator",
+            "name": "mongodb-operator",
             "newCommits": 0,
-            "url": "https://github.com/canonical/kafka-operator",
+            "url": "https://github.com/canonical/mongodb-operator",
             "releases": [
                {
-                  "id": 133487354,
-                  "version": "rev146",
-                  "timestamp": 1702314231,
-                  "title": "Revision 146",
-                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-3023] Add badges to README.md by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/157\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/157\">#157</a></a></li>\n<li>[DPE-3112] Fix DEPENDENCIES field mismatch by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/158\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/158\">#158</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev145...rev146\">https://github.com/canonical/kafka-operator/compare/rev145&hellip;rev146</a></p>\n",
-                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev146",
-                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev146...main"
+                  "id": 133779433,
+                  "version": "rev142",
+                  "timestamp": 1702481925,
+                  "title": "Revision 142",
+                  "body": "<p>Released to 6/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>Update libs by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/314\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/314\">#314</a></a></li>\n<li>[DPE-3085] - Provide <code>mongos</code> with update config db by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/315\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/315\">#315</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev141...rev142\">https://github.com/canonical/mongodb-operator/compare/rev141&hellip;rev142</a></p>\n",
+                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev142",
+                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev142...6/edge"
                },
                {
-                  "id": 131225244,
-                  "version": "rev145",
-                  "timestamp": 1700728754,
-                  "title": "Revision 145",
-                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-2702] Update Kafka version to 3.6.0 by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/156\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/156\">#156</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev144...rev145\">https://github.com/canonical/kafka-operator/compare/rev144&hellip;rev145</a></p>\n",
-                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev145",
-                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev145...main"
+                  "id": 132738923,
+                  "version": "rev141",
+                  "timestamp": 1701803248,
+                  "title": "Revision 141",
+                  "body": "<p>Released to 6/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-2781] Test replica relations to sharding interface by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/298\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/298\">#298</a></a></li>\n<li>[DPE-2992] Part 1 - Provide Mongos with keyfile by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/309\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/309\">#309</a></a></li>\n<li>fix scale down check for sharding by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/310\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/310\">#310</a></a></li>\n<li>[DPE-2992] - Provide config db to mongos by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/311\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/311\">#311</a></a></li>\n<li>[DPE-2995] Create mongos user by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/312\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/312\">#312</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev140...rev141\">https://github.com/canonical/mongodb-operator/compare/rev140&hellip;rev141</a></p>\n",
+                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev141",
+                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev141...6/edge"
                },
                {
-                  "id": 129637203,
-                  "version": "rev144",
-                  "timestamp": 1700079392,
-                  "title": "Revision 144",
-                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[MISC] General dependencies update by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/154\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/154\">#154</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev143...rev144\">https://github.com/canonical/kafka-operator/compare/rev143&hellip;rev144</a></p>\n",
-                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev144",
-                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev144...main"
+                  "id": 132035524,
+                  "version": "rev140",
+                  "timestamp": 1700582136,
+                  "title": "Revision 140",
+                  "body": "<p>Released to 6/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>Fix backup logging 6 edge by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/305\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/305\">#305</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev138...rev140\">https://github.com/canonical/mongodb-operator/compare/rev138&hellip;rev140</a></p>\n",
+                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev140",
+                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev140...6/edge"
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/canonical/kafka-operator/actions/workflows/release.yaml",
-               "https://github.com/canonical/kafka-operator/actions/workflows/ci.yaml",
-               "https://github.com/canonical/kafka-operator/actions/workflows/sync_docs.yaml"
-            ],
-            "charm": {
-               "name": "kafka",
-               "url": "https://charmhub.io/kafka",
-               "releases": [
-                  {
-                     "track": "3",
-                     "channel": "stable",
-                     "revision": 123,
-                     "timestamp": 1684948619
-                  },
-                  {
-                     "track": "3",
-                     "channel": "beta",
-                     "revision": 144,
-                     "timestamp": 1702370417
-                  },
-                  {
-                     "track": "3",
-                     "channel": "edge",
-                     "revision": 146,
-                     "timestamp": 1702333630
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "3"
-               ]
-            },
+            "ciActions": [],
+            "charm": null,
             "snap": null
          },
          {
@@ -13485,41 +13450,76 @@
             "snap": null
          },
          {
-            "name": "mongodb-operator",
-            "newCommits": 2,
-            "url": "https://github.com/canonical/mongodb-operator",
+            "name": "kafka-operator",
+            "newCommits": 0,
+            "url": "https://github.com/canonical/kafka-operator",
             "releases": [
                {
-                  "id": 132738923,
-                  "version": "rev141",
-                  "timestamp": 1701803248,
-                  "title": "Revision 141",
-                  "body": "<p>Released to 6/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-2781] Test replica relations to sharding interface by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/298\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/298\">#298</a></a></li>\n<li>[DPE-2992] Part 1 - Provide Mongos with keyfile by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/309\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/309\">#309</a></a></li>\n<li>fix scale down check for sharding by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/310\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/310\">#310</a></a></li>\n<li>[DPE-2992] - Provide config db to mongos by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/311\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/311\">#311</a></a></li>\n<li>[DPE-2995] Create mongos user by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/312\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/312\">#312</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev140...rev141\">https://github.com/canonical/mongodb-operator/compare/rev140&hellip;rev141</a></p>\n",
-                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev141",
-                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev141...6/edge"
+                  "id": 133487354,
+                  "version": "rev146",
+                  "timestamp": 1702314231,
+                  "title": "Revision 146",
+                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-3023] Add badges to README.md by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/157\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/157\">#157</a></a></li>\n<li>[DPE-3112] Fix DEPENDENCIES field mismatch by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/158\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/158\">#158</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev145...rev146\">https://github.com/canonical/kafka-operator/compare/rev145&hellip;rev146</a></p>\n",
+                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev146",
+                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev146...main"
                },
                {
-                  "id": 132035524,
-                  "version": "rev140",
-                  "timestamp": 1700582136,
-                  "title": "Revision 140",
-                  "body": "<p>Released to 6/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>Fix backup logging 6 edge by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/305\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/305\">#305</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev138...rev140\">https://github.com/canonical/mongodb-operator/compare/rev138&hellip;rev140</a></p>\n",
-                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev140",
-                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev140...6/edge"
+                  "id": 131225244,
+                  "version": "rev145",
+                  "timestamp": 1700728754,
+                  "title": "Revision 145",
+                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[DPE-2702] Update Kafka version to 3.6.0 by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/156\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/156\">#156</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev144...rev145\">https://github.com/canonical/kafka-operator/compare/rev144&hellip;rev145</a></p>\n",
+                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev145",
+                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev145...main"
                },
                {
-                  "id": 130708298,
-                  "version": "rev139",
-                  "timestamp": 1700582075,
-                  "title": "Revision 139",
-                  "body": "<p>Released to 5/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>Fix backup logging 5 edge by <a target=\"_blank\" href=\"https://github.com/MiaAltieri\">@MiaAltieri</a> in <a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/306\"><a target=\"_blank\" href=\"https://github.com/canonical/mongodb-operator/pull/306\">#306</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/mongodb-operator/compare/rev135...rev139\">https://github.com/canonical/mongodb-operator/compare/rev135&hellip;rev139</a></p>\n",
-                  "url": "https://github.com/canonical/mongodb-operator/releases/tag/rev139",
-                  "compareUrl": "https://github.com/canonical/mongodb-operator/compare/rev139...6/edge"
+                  "id": 129637203,
+                  "version": "rev144",
+                  "timestamp": 1700079392,
+                  "title": "Revision 144",
+                  "body": "<p>Released to 3/edge\nOCI images:</p>\n\n<h2>What&rsquo;s Changed</h2>\n\n<ul>\n<li>[MISC] General dependencies update by <a target=\"_blank\" href=\"https://github.com/deusebio\">@deusebio</a> in <a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/154\"><a target=\"_blank\" href=\"https://github.com/canonical/kafka-operator/pull/154\">#154</a></a></li>\n</ul>\n\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/canonical/kafka-operator/compare/rev143...rev144\">https://github.com/canonical/kafka-operator/compare/rev143&hellip;rev144</a></p>\n",
+                  "url": "https://github.com/canonical/kafka-operator/releases/tag/rev144",
+                  "compareUrl": "https://github.com/canonical/kafka-operator/compare/rev144...main"
                }
             ],
             "commits": null,
-            "ciActions": [],
-            "charm": null,
+            "ciActions": [
+               "https://github.com/canonical/kafka-operator/actions/workflows/release.yaml",
+               "https://github.com/canonical/kafka-operator/actions/workflows/ci.yaml",
+               "https://github.com/canonical/kafka-operator/actions/workflows/sync_docs.yaml"
+            ],
+            "charm": {
+               "name": "kafka",
+               "url": "https://charmhub.io/kafka",
+               "releases": [
+                  {
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 123,
+                     "timestamp": 1684948619
+                  },
+                  {
+                     "track": "3",
+                     "channel": "beta",
+                     "revision": 144,
+                     "timestamp": 1702370417
+                  },
+                  {
+                     "track": "3",
+                     "channel": "edge",
+                     "revision": 146,
+                     "timestamp": 1702333630
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "3"
+               ]
+            },
             "snap": null
          },
          {
